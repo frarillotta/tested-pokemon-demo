@@ -7,7 +7,7 @@ exports[`FilterButtons when the filter is captured should have a consistent snap
     id="filters"
   >
     <div
-      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 eVAhZF"
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 ivNgsA"
       data-t-is-captured="false"
       title="Not captured"
     >
@@ -46,7 +46,7 @@ exports[`FilterButtons when the filter is captured should have a consistent snap
       </svg>
     </div>
     <div
-      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 jkkQlV"
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 iucRyY"
       data-t-is-captured="true"
       title="Captured"
     >
@@ -95,7 +95,7 @@ exports[`FilterButtons when the filter is not-captured should have a consistent 
     id="filters"
   >
     <div
-      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 jkkQlV"
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 iucRyY"
       data-t-is-captured="false"
       title="Not captured"
     >
@@ -134,7 +134,7 @@ exports[`FilterButtons when the filter is not-captured should have a consistent 
       </svg>
     </div>
     <div
-      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 eVAhZF"
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 ivNgsA"
       data-t-is-captured="true"
       title="Captured"
     >

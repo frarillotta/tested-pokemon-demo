@@ -36,6 +36,8 @@ export const FilterButtons = ({filter, setFilter, className = ""}: FilterButtons
 const Pokeball = styled(PokeballButton)`
 	height: 47px;
 	border-radius: 100%;
+	/* weirdest bug ive ever seen */
+	z-index: 10;
 	border: ${props => props.isActive ? "solid black 1px" : "solid white 1px"}
 `;
 
