@@ -72,7 +72,12 @@ export default function Home({pokemonsList}) {
 			<Wrapper>
 				<Background size={400}/>
 				<Search id={"search-bar"}>
-					<TextField style={{width: "100%"}} label="Search Pokemon" variant="standard" onChange={debouncedChangeHandler} />
+					<TextField 
+						style={{width: "100%"}} 
+						label="Search Pokemon" 
+						variant="standard" 
+						onChange={debouncedChangeHandler} 
+					/>
 				</Search>
 				<Filters
 					filter={filter}
