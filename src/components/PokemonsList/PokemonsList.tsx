@@ -18,17 +18,19 @@ type PokemonsListProps = {
 const PokemonsList = memo(({className = "", pokemons, capturedPokemons, removePokemon, addPokemon, setActivePokemon}: PokemonsListProps) => {
 	const Row = ({ index, style }) => {
 		const pokemon = pokemons[index];
-		const pokemonName = pokemon && capitalizeFirstLetter(pokemon.name);
+		const pokemonName = pokemon && pokemon.name;
 		const isCaptured = pokemon && capturedPokemons.hasOwnProperty(pokemon.name);
 		return <>
 			<ListItem 
+				data-t-list-item={`${pokemonName}`}
 				onClick={()=> setActivePokemon(pokemon)}
 				index={index}
 				style={style}
 			>
-				{pokemonName}
+				{capitalizeFirstLetter(pokemonName)}
 			</ListItem>
 			<Pokeball 
+				data-t-pokeball={`list-${pokemonName}`}
 				style={{ ...style, position: "absolute", left: "none", width: "none", right: "0px" }}
 				isCaptured={isCaptured} 
 				onClick={() => isCaptured ? removePokemon(pokemon.name) : addPokemon(pokemons[index])}
@@ -38,7 +40,7 @@ const PokemonsList = memo(({className = "", pokemons, capturedPokemons, removePo
 	};
 
 	return (
-		<Wrapper className={className}>
+		<Wrapper id="pokemon-list" className={className}>
 			<AutoSizer>
 				{({ height, width }) => (
 					<List

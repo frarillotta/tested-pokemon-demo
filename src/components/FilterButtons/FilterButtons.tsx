@@ -12,7 +12,7 @@ type FilterButtonsProps = {
 
 export const FilterButtons = ({filter, setFilter, className = ""}: FilterButtonsProps) => {
 	return (
-		<Wrapper className={className}>
+		<Wrapper id={"filters"} className={className}>
 			<Tooltip title={"Not captured"}>
 				<Pokeball
 					isCaptured={false}

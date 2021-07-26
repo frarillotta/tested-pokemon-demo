@@ -38,3 +38,42 @@ exports[`PokeballButton when isCaptured=true should have a consistent snapshot 1
   </div>
 </div>
 `;
+
+exports[`StatCircle when loaded should have a consistent snapshot 1`] = `
+<div>
+  <div
+    class="StatCircle__Wrapper-sc-1jkiqr4-0 dLMOGu"
+  >
+    <div
+      aria-valuenow="0"
+      class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
+      role="progressbar"
+      style="width: 50px; height: 50px; transform: rotate(-90deg); color: blue;"
+    >
+      <svg
+        class="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20.2"
+          stroke-width="3.6"
+          style="stroke-dasharray: 126.920; stroke-dashoffset: 126.920px;"
+        />
+      </svg>
+    </div>
+    <div
+      class="StatCircle__StatValueNumberWrapper-sc-1jkiqr4-1 fmUBLe"
+    >
+      <div
+        class="StatCircle__StatValueNumber-sc-1jkiqr4-2"
+      >
+        0
+      </div>
+    </div>
+  </div>
+</div>
+`;

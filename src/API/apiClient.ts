@@ -2,7 +2,7 @@ async function apiClient(
 	endpoint: string
 ) {
 
-	return window.fetch(endpoint, {}).then(async response => {
+	return fetch(endpoint, {}).then(async response => {
 		const data = await response.json()
 		if (response.ok) {
 			return data

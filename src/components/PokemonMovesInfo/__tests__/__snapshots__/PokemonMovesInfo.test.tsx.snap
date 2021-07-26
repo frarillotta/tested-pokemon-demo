@@ -134,3 +134,138 @@ exports[`PokeballButton when isCaptured=true should have a consistent snapshot 1
   </main>
 </div>
 `;
+
+exports[`PokemonMovesInfo when loaded should have a consistent snapshot 1`] = `
+<div>
+  <main
+    class="PokemonMovesInfo__Wrapper-sc-7pl66i-4 fgtUjm"
+  >
+    <div
+      class="MuiFormControl-root"
+      style="width: 100%; margin-bottom: 20px;"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+        data-shrink="true"
+      >
+        Pokemon games
+      </label>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="pokemon-moves"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          role="button"
+          tabindex="0"
+        >
+          Red-blue
+        </div>
+        <input
+          aria-hidden="true"
+          class="MuiSelect-nativeInput"
+          tabindex="-1"
+          value="red-blue"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="PokemonMovesInfo__GridRow-sc-7pl66i-0 loQwdy"
+      style="margin-bottom: 15px; margin-right: 20px; font-weight: bold;"
+    >
+      <span
+        class="PokemonMovesInfo__Name-sc-7pl66i-1 tcijR"
+      >
+        Name
+      </span>
+      <span
+        class="PokemonMovesInfo__LearnedAt-sc-7pl66i-2 jxpttq"
+      >
+        Learned At
+      </span>
+      <span
+        class="PokemonMovesInfo__LearnedIn-sc-7pl66i-3 hcKxXz"
+      >
+        Learned In
+      </span>
+    </div>
+    <div
+      style="overflow: visible; height: auto; width: auto;"
+    >
+      <div
+        style="position: relative; height: 367px; width: -50px; overflow: auto; will-change: transform; direction: ltr;"
+      >
+        <div
+          style="height: 70px; width: 100%;"
+        >
+          <div
+            class="PokemonMovesInfo__GridRow-sc-7pl66i-0 loQwdy"
+            style="position: absolute; left: 0px; top: 0px; height: 35px; width: 100%;"
+          >
+            <span
+              class="PokemonMovesInfo__Name-sc-7pl66i-1 tcijR"
+            >
+              Mega-punch
+            </span>
+            <span
+              class="PokemonMovesInfo__LearnedAt-sc-7pl66i-2 jxpttq"
+            >
+              0
+            </span>
+            <span
+              class="PokemonMovesInfo__LearnedIn-sc-7pl66i-3 hcKxXz"
+            >
+              Machine
+            </span>
+          </div>
+          <div
+            class="PokemonMovesInfo__GridRow-sc-7pl66i-0 loQwdy"
+            style="position: absolute; left: 0px; top: 35px; height: 35px; width: 100%;"
+          >
+            <span
+              class="PokemonMovesInfo__Name-sc-7pl66i-1 tcijR"
+            >
+              Ice-punch
+            </span>
+            <span
+              class="PokemonMovesInfo__LearnedAt-sc-7pl66i-2 jxpttq"
+            >
+              --
+            </span>
+            <span
+              class="PokemonMovesInfo__LearnedIn-sc-7pl66i-3 hcKxXz"
+            >
+              --
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="resize-triggers"
+    >
+      <div
+        class="expand-trigger"
+      >
+        <div
+          style="width: 1px; height: 1px;"
+        />
+      </div>
+      <div
+        class="contract-trigger"
+      />
+    </div>
+  </main>
+</div>
+`;

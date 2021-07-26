@@ -42,6 +42,7 @@ const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, r
 	const pokemon = isSuccess && data;
 	const types = isSuccess && data && pokemon.types.map((type) => type.type.name);
 	const isCaptured = pokemon && capturedPokemons.hasOwnProperty(pokemon.name);
+	const pokemonName = pokemon.name;
 	return (isSuccess && data && 
 		<DescriptionWrapper backgroundColor={ getColorByType(types[0]) } className={className}>
 			<Header>
@@ -54,14 +55,15 @@ const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, r
 					/>
 				</PokemonImageWrapper>
 				<PokemonTypesNameWrapper>
-					<PokemonName>{pokemon.name.toUpperCase()} <PokemonId>#{getPokemonId(pokemon.id)}</PokemonId></PokemonName>
+					<PokemonName>{pokemonName.toUpperCase()} <PokemonId>#{getPokemonId(pokemon.id)}</PokemonId></PokemonName>
 					<PokemonTypesWrapper>
 						{types.map((type) => <PokemonType background={ getColorByType(type) } key={type}>{type}</PokemonType>)}
 					</PokemonTypesWrapper>
 				</PokemonTypesNameWrapper>
 				<Pokeball
+					data-t-pokeball={`description-${pokemonName}`}
 					isCaptured={isCaptured}
-					onClick={() => isCaptured ? removePokemon(pokemon.name) : addPokemon(activePokemon)}
+					onClick={() => isCaptured ? removePokemon(pokemonName) : addPokemon(activePokemon)}
 					size={100}
 				/>
 			</Header>
@@ -101,9 +103,6 @@ const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, r
 		</DescriptionWrapper>
 	)
 
-//TODO stats with progress bar, map colors to stat name
-//Tab for about / moves / stats?
-//idk if image slider for different sprites
 });
 
 function TabPanel({ children, value, index, ...other }) {

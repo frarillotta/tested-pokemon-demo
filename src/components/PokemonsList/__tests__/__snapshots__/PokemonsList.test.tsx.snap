@@ -25,3 +25,30 @@ exports[`PokeballButton when isCaptured=true should have a consistent snapshot 1
   </main>
 </div>
 `;
+
+exports[`PokemonsList when loaded should have a consistent snapshot 1`] = `
+<div>
+  <main
+    class="PokemonsList__Wrapper-sc-1vm6xrc-0 gEFRsL"
+    id="pokemon-list"
+  >
+    <div
+      style="overflow: visible; height: 0px; width: 0px;"
+    />
+    <div
+      class="resize-triggers"
+    >
+      <div
+        class="expand-trigger"
+      >
+        <div
+          style="width: 1px; height: 1px;"
+        />
+      </div>
+      <div
+        class="contract-trigger"
+      />
+    </div>
+  </main>
+</div>
+`;
