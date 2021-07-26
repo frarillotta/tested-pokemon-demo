@@ -4,6 +4,7 @@ exports[`FilterButtons when the filter is captured should have a consistent snap
 <div>
   <main
     class="FilterButtons__Wrapper-sc-mrsqbp-1 cVlVGQ"
+    id="filters"
   >
     <div
       class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 eVAhZF"
@@ -91,6 +92,7 @@ exports[`FilterButtons when the filter is not-captured should have a consistent 
 <div>
   <main
     class="FilterButtons__Wrapper-sc-mrsqbp-1 cVlVGQ"
+    id="filters"
   >
     <div
       class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 jkkQlV"

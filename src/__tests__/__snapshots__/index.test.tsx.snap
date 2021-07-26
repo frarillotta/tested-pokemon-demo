@@ -57,6 +57,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
     </svg>
     <div
       class="pages__Search-sc-9oj6z6-2 lpizNx"
+      id="search-bar"
     >
       <div
         class="MuiFormControl-root MuiTextField-root"
@@ -82,6 +83,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
     </div>
     <main
       class="FilterButtons__Wrapper-sc-mrsqbp-1 cVlVGQ pages__Filters-sc-9oj6z6-3 kmOafn"
+      id="filters"
     >
       <div
         class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 eVAhZF"
@@ -164,6 +166,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
     </main>
     <main
       class="PokemonsList__Wrapper-sc-1vm6xrc-0 gEFRsL pages__List-sc-9oj6z6-4 hHZKqv"
+      id="pokemon-list"
     >
       <div
         style="overflow: visible; height: 0px; width: 0px;"
@@ -176,6 +179,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
           >
             <span
               class="PokemonsList__ListItem-sc-1vm6xrc-2 ksvtKZ"
+              data-t-list-item="bulbasaur"
               style="position: absolute; left: 0px; top: 0px; height: 35px; width: 100%;"
             >
               Bulbasaur
@@ -183,6 +187,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
             <div
               class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph PokemonsList__Pokeball-sc-1vm6xrc-1 jVDyeK"
               data-t-is-captured="false"
+              data-t-pokeball="list-bulbasaur"
               style="position: absolute; right: 0px; top: 0px; height: 35px;"
             >
               <svg
@@ -221,6 +226,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
             </div>
             <span
               class="PokemonsList__ListItem-sc-1vm6xrc-2 cDyZEM"
+              data-t-list-item="ivysaur"
               style="position: absolute; left: 0px; top: 35px; height: 35px; width: 100%;"
             >
               Ivysaur
@@ -228,6 +234,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
             <div
               class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph PokemonsList__Pokeball-sc-1vm6xrc-1 jVDyeK"
               data-t-is-captured="false"
+              data-t-pokeball="list-ivysaur"
               style="position: absolute; right: 0px; top: 35px; height: 35px;"
             >
               <svg
@@ -266,6 +273,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
             </div>
             <span
               class="PokemonsList__ListItem-sc-1vm6xrc-2 ksvtKZ"
+              data-t-list-item="venusaur"
               style="position: absolute; left: 0px; top: 70px; height: 35px; width: 100%;"
             >
               Venusaur
@@ -273,6 +281,7 @@ exports[`Homepage should have a consistent snapshot 1`] = `
             <div
               class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph PokemonsList__Pokeball-sc-1vm6xrc-1 jVDyeK"
               data-t-is-captured="false"
+              data-t-pokeball="list-venusaur"
               style="position: absolute; right: 0px; top: 70px; height: 35px;"
             >
               <svg

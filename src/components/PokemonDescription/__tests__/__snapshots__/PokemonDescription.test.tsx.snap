@@ -39,6 +39,7 @@ exports[`PokemonDescription when it doesnt have captured pokemon match should ha
       <div
         class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph PokemonDescription__Pokeball-sc-rkyphs-3 hpPmap"
         data-t-is-captured="false"
+        data-t-pokeball="description-squirtle"
       >
         <svg
           class="PokeballButton__PokeballSVG-sc-z0qx2i-1 fWWEza"
