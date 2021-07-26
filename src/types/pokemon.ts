@@ -1,4 +1,3 @@
-import { GenerationSprites } from './pokemon';
 export type Pokemon = {
     abilities: {
           ability:{

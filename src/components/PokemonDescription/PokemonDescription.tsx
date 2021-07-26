@@ -22,7 +22,7 @@ type PokemonDescriptionProps = {
 	className: string,
 }
 
-export const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, removePokemon, className}: PokemonDescriptionProps) => {
+const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, removePokemon, className}: PokemonDescriptionProps) => {
 
 	const [value, setValue] = useState(0);
 
@@ -201,3 +201,5 @@ const PokemonType = styled.span`
 	font-weight: bold;
 	box-shadow: 0px 1px 3px 0px black;
 `;
+
+export { PokemonDescription }
