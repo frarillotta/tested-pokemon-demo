@@ -17,15 +17,14 @@
 	  "resolveJsonModule": true,
 	  "isolatedModules": true,
 	  "jsx": "preserve",
-	  "types": ["cypress"]
+	  "types": ["jest"]
 	},
 	"include": [
 	  "next-env.d.ts",
 	  "**/*.ts",
 	  "**/*.tsx"
 	],
-	"exclude": [
-	  "node_modules"
-	]
+    "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts", "cypress"],
+
   }
   
