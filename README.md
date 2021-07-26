@@ -6,6 +6,9 @@ I used some tech that I really enjoy using in the React ecosystem, including
 - Material-UI
 - Next.js
 - styled-components
+
+You can find a hosted production build here: https://tested-pokemon-demo.vercel.app/ 
+
 ## Getting Started
 
 First, run the development server:
