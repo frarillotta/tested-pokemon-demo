@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonDescription when it doesnt have captured pokemon match should have a consistent snapshot 1`] = `
+<div>
+  <main
+    class="PokemonDescription__DescriptionWrapper-sc-rkyphs-1 evrziB"
+  >
+    <header
+      class="PokemonDescription__Header-sc-rkyphs-0"
+    >
+      <div
+        class="PokemonDescription__PokemonImageWrapper-sc-rkyphs-7 dnAJzR"
+      />
+      <div
+        class="PokemonDescription__PokemonTypesNameWrapper-sc-rkyphs-4 gbgilG"
+      >
+        <div
+          class="PokemonDescription__PokemonName-sc-rkyphs-8 dGaXHa"
+        >
+          SQUIRTLE
+           
+          <span
+            class="PokemonDescription__PokemonId-sc-rkyphs-2 hReLpg"
+          >
+            #
+            007
+          </span>
+        </div>
+        <div
+          class="PokemonDescription__PokemonTypesWrapper-sc-rkyphs-5 dCzXyk"
+        >
+          <span
+            class="PokemonDescription__PokemonType-sc-rkyphs-9 iIyWrb"
+          >
+            water
+          </span>
+        </div>
+      </div>
+      <div
+        class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph PokemonDescription__Pokeball-sc-rkyphs-3 hpPmap"
+        data-t-is-captured="false"
+      >
+        <svg
+          class="PokeballButton__PokeballSVG-sc-z0qx2i-1 fWWEza"
+          height="100"
+          viewBox="25 25 50 50"
+          width="100"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M 30 50
+ a 1 1 1 0 1 40 0
+ h-12.5
+ a 1 1 1 0 0 -15 0
+ z"
+            fill="#f00"
+            stroke="#222"
+          />
+          <circle
+            cx="50"
+            cy="50"
+            fill="#222"
+            r="5"
+            stroke="#222"
+          />
+          <path
+            d="M 30 50
+ a 1 1 1 0 0 40 0
+ h-12.5
+ a 1 1 1 0 1 -15 0
+ z"
+            fill="#fff"
+            stroke="#222"
+          />
+        </svg>
+      </div>
+    </header>
+    <div
+      class="PokemonDescription__Wrapper-sc-rkyphs-6 bqONiD"
+    >
+      <header
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorTransparent MuiPaper-elevation4"
+        style="box-shadow: none;"
+      >
+        <div
+          class="MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed"
+            style="overflow: hidden;"
+          >
+            <div
+              aria-label="Pokemon description tabs"
+              class="MuiTabs-flexContainer MuiTabs-centered"
+              role="tablist"
+            >
+              <button
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  Info
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  Stats
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  Moves
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </header>
+      <div
+        aria-labelledby="simple-tab-0"
+        id="simple-tabpanel-0"
+        role="tabpanel"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-10"
+        >
+          <div
+            class="PokemonMainInfo__PokemonInfo-sc-1y1zaw-3 eFwIDo"
+          >
+            <div
+              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+            >
+              <span
+                class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
+              >
+                Height:
+              </span>
+              <span
+                class="PokemonMainInfo__InfoValue-sc-1y1zaw-2 hqHXIZ"
+              >
+                50 cm ~(1'8'')
+              </span>
+            </div>
+            <div
+              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+            >
+              <span
+                class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
+              >
+                Weight:
+              </span>
+              <span
+                class="PokemonMainInfo__InfoValue-sc-1y1zaw-2 hqHXIZ"
+              >
+                9 kg (19.85 lbs)
+              </span>
+            </div>
+            <div
+              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+            >
+              <span
+                class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
+              >
+                Abilities:
+              </span>
+              <span
+                class="PokemonMainInfo__InfoValue-sc-1y1zaw-2 hqHXIZ"
+              >
+                Torrent, Rain dish
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="simple-tab-1"
+        hidden=""
+        id="simple-tabpanel-1"
+        role="tabpanel"
+      />
+      <div
+        aria-labelledby="simple-tab-2"
+        hidden=""
+        id="simple-tabpanel-2"
+        role="tabpanel"
+      />
+    </div>
+  </main>
+</div>
+`;
+
+exports[`PokemonDescription when it has a captured pokemon match should have a consistent snapshot 1`] = `<div />`;

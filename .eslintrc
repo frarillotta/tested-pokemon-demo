@@ -1,9 +1,16 @@
 {
-  "extends": ["next", "next/core-web-vitals"],
+  "extends": ["next", "next/core-web-vitals" , "plugin:cypress/recommended"],
   "rules": {
       "indent": [
           "error",
           "tab"
       ]
-  }
+  },
+  "plugins": [
+	"react",
+	"react-hooks",
+	"tsc",
+	"@typescript-eslint",
+	"cypress"
+  ]
 }

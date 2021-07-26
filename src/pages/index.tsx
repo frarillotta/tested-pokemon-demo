@@ -14,13 +14,13 @@ import { PokemonsList, FilterButtons, PokemonDescription } from '../components';
 import Head from 'next/head';
 import { BackgroundPokeball } from '../components/SVGs';
 
-export default function Home() {
+export default function Home({pokemonsList}) {
 
+	const fetchPokemons = async () => apiClient(`${url}/pokemon?limit=40000`);
 	const [searchQuery, setSearchQuery] = useState(null);
 	const [filter, setFilter] = useState<"captured" | "not-captured" | null>(null);
 	const [activePokemon, setActivePokemon] = useState(null);
   
-	const fetchPokemons = async () => apiClient(`${url}/pokemon?limit=40000`);
 	const {
 		data,
 		error,
@@ -29,7 +29,7 @@ export default function Home() {
 		isIdle,
 		isLoading,
 		isSuccess,
-	} = useQuery<pokemonType>('allPokemons', fetchPokemons, {});
+	} = useQuery<pokemonType>('allPokemons', fetchPokemons, { initialData: pokemonsList });
 	const { capturedPokemons, addPokemon, removePokemon } = useLocalStorage();
 	let pokemons = isSuccess && data.results;
 	if (filter) {
@@ -148,3 +148,9 @@ const List = styled(PokemonsList)`
 const Description = styled(PokemonDescription)`
 	grid-area: description;
 `
+
+export async function getStaticProps() {
+	const fetchPokemons = async () => apiClient(`${url}/pokemon?limit=40000`);
+	const pokemonsList = await fetchPokemons()
+	return { props: { pokemonsList } }
+}

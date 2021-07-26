@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokeballButton when isCaptured=true should have a consistent snapshot 1`] = `
+<div>
+  <div
+    class="PokemonMainInfo__PokemonInfo-sc-1y1zaw-3 eFwIDo"
+  >
+    <div
+      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+    >
+      <span
+        class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
+      >
+        Height:
+      </span>
+      <span
+        class="PokemonMainInfo__InfoValue-sc-1y1zaw-2 hqHXIZ"
+      >
+        900 cm ~(29'6'')
+      </span>
+    </div>
+    <div
+      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+    >
+      <span
+        class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
+      >
+        Weight:
+      </span>
+      <span
+        class="PokemonMainInfo__InfoValue-sc-1y1zaw-2 hqHXIZ"
+      >
+        9 kg (19.85 lbs)
+      </span>
+    </div>
+    <div
+      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+    >
+      <span
+        class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
+      >
+        Abilities:
+      </span>
+      <span
+        class="PokemonMainInfo__InfoValue-sc-1y1zaw-2 hqHXIZ"
+      >
+        Torrent, Rain dish
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterButtons when the filter is captured should have a consistent snapshot 1`] = `
+<div>
+  <main
+    class="FilterButtons__Wrapper-sc-mrsqbp-1 cVlVGQ"
+  >
+    <div
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 eVAhZF"
+      data-t-is-captured="false"
+      title="Not captured"
+    >
+      <svg
+        class="PokeballButton__PokeballSVG-sc-z0qx2i-1 fWWEza"
+        height="45"
+        viewBox="25 25 50 50"
+        width="45"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M 30 50
+ a 1 1 1 0 1 40 0
+ h-12.5
+ a 1 1 1 0 0 -15 0
+ z"
+          fill="#f00"
+          stroke="#222"
+        />
+        <circle
+          cx="50"
+          cy="50"
+          fill="#222"
+          r="5"
+          stroke="#222"
+        />
+        <path
+          d="M 30 50
+ a 1 1 1 0 0 40 0
+ h-12.5
+ a 1 1 1 0 1 -15 0
+ z"
+          fill="#fff"
+          stroke="#222"
+        />
+      </svg>
+    </div>
+    <div
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 jkkQlV"
+      data-t-is-captured="true"
+      title="Captured"
+    >
+      <svg
+        class="PokeballButton__PokeballSVG-sc-z0qx2i-1 iJvgOH"
+        height="45"
+        viewBox="25 25 50 50"
+        width="45"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M 30 50
+ a 1 1 1 0 1 40 0
+ h-12.5
+ a 1 1 1 0 0 -15 0
+ z"
+          fill="#f00"
+          stroke="#222"
+        />
+        <circle
+          cx="50"
+          cy="50"
+          fill="#222"
+          r="5"
+          stroke="#222"
+        />
+        <path
+          d="M 30 50
+ a 1 1 1 0 0 40 0
+ h-12.5
+ a 1 1 1 0 1 -15 0
+ z"
+          fill="#fff"
+          stroke="#222"
+        />
+      </svg>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`FilterButtons when the filter is not-captured should have a consistent snapshot 1`] = `
+<div>
+  <main
+    class="FilterButtons__Wrapper-sc-mrsqbp-1 cVlVGQ"
+  >
+    <div
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 jkkQlV"
+      data-t-is-captured="false"
+      title="Not captured"
+    >
+      <svg
+        class="PokeballButton__PokeballSVG-sc-z0qx2i-1 fWWEza"
+        height="45"
+        viewBox="25 25 50 50"
+        width="45"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M 30 50
+ a 1 1 1 0 1 40 0
+ h-12.5
+ a 1 1 1 0 0 -15 0
+ z"
+          fill="#f00"
+          stroke="#222"
+        />
+        <circle
+          cx="50"
+          cy="50"
+          fill="#222"
+          r="5"
+          stroke="#222"
+        />
+        <path
+          d="M 30 50
+ a 1 1 1 0 0 40 0
+ h-12.5
+ a 1 1 1 0 1 -15 0
+ z"
+          fill="#fff"
+          stroke="#222"
+        />
+      </svg>
+    </div>
+    <div
+      class="PokeballButton__PokeballWrapper-sc-z0qx2i-0 jUctph FilterButtons__Pokeball-sc-mrsqbp-0 eVAhZF"
+      data-t-is-captured="true"
+      title="Captured"
+    >
+      <svg
+        class="PokeballButton__PokeballSVG-sc-z0qx2i-1 iJvgOH"
+        height="45"
+        viewBox="25 25 50 50"
+        width="45"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M 30 50
+ a 1 1 1 0 1 40 0
+ h-12.5
+ a 1 1 1 0 0 -15 0
+ z"
+          fill="#f00"
+          stroke="#222"
+        />
+        <circle
+          cx="50"
+          cy="50"
+          fill="#222"
+          r="5"
+          stroke="#222"
+        />
+        <path
+          d="M 30 50
+ a 1 1 1 0 0 40 0
+ h-12.5
+ a 1 1 1 0 1 -15 0
+ z"
+          fill="#fff"
+          stroke="#222"
+        />
+      </svg>
+    </div>
+  </main>
+</div>
+`;

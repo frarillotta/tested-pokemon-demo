@@ -19,11 +19,10 @@ type PokemonDescriptionProps = {
 	capturedPokemons: Record<string, string>,
 	addPokemon: (pokemon: pokemonResults) => void,
 	removePokemon: (pokemonName: string) => void,
-	className: string,
+	className?: string,
 }
 
-const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, removePokemon, className}: PokemonDescriptionProps) => {
-
+const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, removePokemon, className = ""}: PokemonDescriptionProps) => {
 	const [value, setValue] = useState(0);
 
 	const handleChange = (_, newValue) => {
@@ -31,7 +30,6 @@ const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, r
 	};
 
 	const fetchPokemons = async () => apiClient(activePokemon.url);
-
 	const {
 		data,
 		error,

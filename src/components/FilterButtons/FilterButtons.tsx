@@ -7,10 +7,10 @@ import Tooltip from '@material-ui/core/Tooltip';
 type FilterButtonsProps = {
     filter: null | "captured" | "not-captured",
     setFilter: (filterType: null | "captured" | "not-captured") => void,
-	className: string,
+	className?: string,
 }
 
-export const FilterButtons = ({filter, setFilter, className}: FilterButtonsProps) => {
+export const FilterButtons = ({filter, setFilter, className = ""}: FilterButtonsProps) => {
 	return (
 		<Wrapper className={className}>
 			<Tooltip title={"Not captured"}>

@@ -7,7 +7,7 @@ import AutoSizer from "react-virtualized-auto-sizer";
 import { capitalizeFirstLetter } from "../../utils";
 
 type PokemonsListProps = {
-	className: string,
+	className?: string,
     pokemons: pokemonResults[],
     capturedPokemons: Record<string, string>
     removePokemon: (pokemonName: string) => void;
@@ -15,8 +15,7 @@ type PokemonsListProps = {
 	setActivePokemon: (pokemon: pokemonResults) => void;
 }
 
-const PokemonsList = memo(({className, pokemons, capturedPokemons, removePokemon, addPokemon, setActivePokemon}: PokemonsListProps) => {
-
+const PokemonsList = memo(({className = "", pokemons, capturedPokemons, removePokemon, addPokemon, setActivePokemon}: PokemonsListProps) => {
 	const Row = ({ index, style }) => {
 		const pokemon = pokemons[index];
 		const pokemonName = pokemon && capitalizeFirstLetter(pokemon.name);

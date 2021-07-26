@@ -5,14 +5,15 @@ import { CSSProperties, forwardRef } from 'react';
 type PokeballButtonProps = {
     isCaptured: boolean;
     onClick: () => void;
-    size: number;
+    size?: number;
     style?: CSSProperties
 }
 
-const PokeballButton = forwardRef(({isCaptured, onClick, size, ...delegate}: PokeballButtonProps, ref) => {
+const PokeballButton = forwardRef(({isCaptured, onClick, size = 24, ...delegate}: PokeballButtonProps, ref) => {
 	return <PokeballWrapper 
 		onClick={onClick}
 		ref={ref}
+		data-t-is-captured={isCaptured}
 		{...delegate}
 	>
 		<PokeballSVG 

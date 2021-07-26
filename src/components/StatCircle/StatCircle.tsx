@@ -5,10 +5,10 @@ import styled from "styled-components";
 type StatCircleProps = {
 	value: number;
 	color: string;
-	className: string;
+	className?: string;
 }
 
-const StatCircle = ({value, color, className}: StatCircleProps) => {
+const StatCircle = ({value, color, className = ""}: StatCircleProps) => {
 
 	const [progress, setProgress] = useState(0);
 
