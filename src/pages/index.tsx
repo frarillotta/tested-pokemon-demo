@@ -24,10 +24,6 @@ export default function Home({pokemonsList}) {
 	const {
 		data,
 		error,
-		isError,
-		isFetching,
-		isIdle,
-		isLoading,
 		isSuccess,
 	} = useQuery<pokemonType>('allPokemons', fetchPokemons, { initialData: pokemonsList });
 	const { capturedPokemons, addPokemon, removePokemon } = useLocalStorage();
@@ -105,6 +101,8 @@ export default function Home({pokemonsList}) {
 const Wrapper = styled.main`
 	height: 100%;
 	display: grid;
+	overflow-x: hidden;
+	position: relative;
 	grid-template-rows: 100px minmax(300px, 1fr);
 	grid-template-columns: 1fr 0.5fr 1fr 1fr;
 	grid-template-areas: 

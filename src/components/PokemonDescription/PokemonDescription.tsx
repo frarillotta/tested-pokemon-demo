@@ -32,13 +32,9 @@ const PokemonDescription = memo(({activePokemon, capturedPokemons, addPokemon, r
 	const fetchPokemons = async () => apiClient(activePokemon.url);
 	const {
 		data,
-		error,
-		isError,
-		isFetching,
-		isIdle,
-		isLoading,
 		isSuccess,
 	} = useQuery<Pokemon>(activePokemon.name, fetchPokemons, {});
+	
 	const pokemon = isSuccess && data;
 	const types = isSuccess && data && pokemon.types.map((type) => type.type.name);
 	const isCaptured = pokemon && capturedPokemons.hasOwnProperty(pokemon.name);
@@ -130,7 +126,7 @@ const Header = styled.header`
 const DescriptionWrapper = styled.main`
 	position: relative;
 	border-radius: 50px;
-	margin: 20px 20px 20px 0px;
+	margin: 20px;
 	background: ${props => props.backgroundColor};
 `
 
