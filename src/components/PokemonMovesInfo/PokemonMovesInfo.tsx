@@ -67,7 +67,7 @@ const PokemonMovesInfo = ({moves, className = ""}: PokemonMovesInfoType) => {
 					Name
 				</Name>
 				<LearnedAt>
-					Learned At
+					Lvl
 				</LearnedAt>
 				<LearnedIn>
 					Learned In
@@ -92,7 +92,7 @@ const PokemonMovesInfo = ({moves, className = ""}: PokemonMovesInfoType) => {
 
 const GridRow = styled.div`
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 1fr .33fr 0.7fr;
 	grid-template-areas: "name learnedAt learnedIn";
 `
 

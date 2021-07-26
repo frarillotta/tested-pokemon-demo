@@ -46,7 +46,7 @@ exports[`PokemonMovesInfo when loaded should have a consistent snapshot 1`] = `
       </div>
     </div>
     <div
-      class="PokemonMovesInfo__GridRow-sc-7pl66i-0 loQwdy"
+      class="PokemonMovesInfo__GridRow-sc-7pl66i-0 hPUYwI"
       style="margin-bottom: 15px; margin-right: 20px; font-weight: bold;"
     >
       <span
@@ -57,7 +57,7 @@ exports[`PokemonMovesInfo when loaded should have a consistent snapshot 1`] = `
       <span
         class="PokemonMovesInfo__LearnedAt-sc-7pl66i-2 jxpttq"
       >
-        Learned At
+        Lvl
       </span>
       <span
         class="PokemonMovesInfo__LearnedIn-sc-7pl66i-3 hcKxXz"
@@ -75,7 +75,7 @@ exports[`PokemonMovesInfo when loaded should have a consistent snapshot 1`] = `
           style="height: 70px; width: 100%;"
         >
           <div
-            class="PokemonMovesInfo__GridRow-sc-7pl66i-0 loQwdy"
+            class="PokemonMovesInfo__GridRow-sc-7pl66i-0 hPUYwI"
             style="position: absolute; left: 0px; top: 0px; height: 35px; width: 100%;"
           >
             <span
@@ -95,7 +95,7 @@ exports[`PokemonMovesInfo when loaded should have a consistent snapshot 1`] = `
             </span>
           </div>
           <div
-            class="PokemonMovesInfo__GridRow-sc-7pl66i-0 loQwdy"
+            class="PokemonMovesInfo__GridRow-sc-7pl66i-0 hPUYwI"
             style="position: absolute; left: 0px; top: 35px; height: 35px; width: 100%;"
           >
             <span
