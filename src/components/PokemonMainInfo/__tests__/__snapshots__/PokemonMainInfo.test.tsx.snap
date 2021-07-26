@@ -6,7 +6,7 @@ exports[`PokemonMainInfo when loaded should have a consistent snapshot 1`] = `
     class="PokemonMainInfo__PokemonInfo-sc-1y1zaw-3 eFwIDo"
   >
     <div
-      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 kqkWtf"
     >
       <span
         class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
@@ -20,7 +20,7 @@ exports[`PokemonMainInfo when loaded should have a consistent snapshot 1`] = `
       </span>
     </div>
     <div
-      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 kqkWtf"
     >
       <span
         class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
@@ -34,7 +34,7 @@ exports[`PokemonMainInfo when loaded should have a consistent snapshot 1`] = `
       </span>
     </div>
     <div
-      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+      class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 kqkWtf"
     >
       <span
         class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"

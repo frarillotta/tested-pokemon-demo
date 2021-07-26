@@ -7,7 +7,7 @@ exports[`PokemonStatsInfo when loaded should have a consistent snapshot 1`] = `
   >
     <div>
       <div
-        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 ePiRYv"
+        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 fgOnNU"
       >
         <span
           class="PokemonStatsInfo__StatProperty-sc-16epyc7-2 jpsEst"
@@ -62,7 +62,7 @@ exports[`PokemonStatsInfo when loaded should have a consistent snapshot 1`] = `
     </div>
     <div>
       <div
-        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 ePiRYv"
+        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 fgOnNU"
       >
         <span
           class="PokemonStatsInfo__StatProperty-sc-16epyc7-2 jpsEst"
@@ -117,7 +117,7 @@ exports[`PokemonStatsInfo when loaded should have a consistent snapshot 1`] = `
     </div>
     <div>
       <div
-        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 ePiRYv"
+        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 fgOnNU"
       >
         <span
           class="PokemonStatsInfo__StatProperty-sc-16epyc7-2 jpsEst"
@@ -172,7 +172,7 @@ exports[`PokemonStatsInfo when loaded should have a consistent snapshot 1`] = `
     </div>
     <div>
       <div
-        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 ePiRYv"
+        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 fgOnNU"
       >
         <span
           class="PokemonStatsInfo__StatProperty-sc-16epyc7-2 jpsEst"
@@ -227,7 +227,7 @@ exports[`PokemonStatsInfo when loaded should have a consistent snapshot 1`] = `
     </div>
     <div>
       <div
-        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 ePiRYv"
+        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 fgOnNU"
       >
         <span
           class="PokemonStatsInfo__StatProperty-sc-16epyc7-2 jpsEst"
@@ -282,7 +282,7 @@ exports[`PokemonStatsInfo when loaded should have a consistent snapshot 1`] = `
     </div>
     <div>
       <div
-        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 ePiRYv"
+        class="PokemonStatsInfo__StatsWrapper-sc-16epyc7-1 fgOnNU"
       >
         <span
           class="PokemonStatsInfo__StatProperty-sc-16epyc7-2 jpsEst"

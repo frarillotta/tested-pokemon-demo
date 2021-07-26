@@ -3,7 +3,7 @@
 exports[`PokemonDescription when it doesnt have captured pokemon match should have a consistent snapshot 1`] = `
 <div>
   <main
-    class="PokemonDescription__DescriptionWrapper-sc-rkyphs-1 evrziB"
+    class="PokemonDescription__DescriptionWrapper-sc-rkyphs-1 kEIwNh"
   >
     <header
       class="PokemonDescription__Header-sc-rkyphs-0"
@@ -163,7 +163,7 @@ exports[`PokemonDescription when it doesnt have captured pokemon match should ha
             class="PokemonMainInfo__PokemonInfo-sc-1y1zaw-3 eFwIDo"
           >
             <div
-              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 kqkWtf"
             >
               <span
                 class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
@@ -177,7 +177,7 @@ exports[`PokemonDescription when it doesnt have captured pokemon match should ha
               </span>
             </div>
             <div
-              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 kqkWtf"
             >
               <span
                 class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
@@ -191,7 +191,7 @@ exports[`PokemonDescription when it doesnt have captured pokemon match should ha
               </span>
             </div>
             <div
-              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 jVYAZk"
+              class="PokemonMainInfo__InfoPropertyValueWrapper-sc-1y1zaw-0 kqkWtf"
             >
               <span
                 class="PokemonMainInfo__InfoProperty-sc-1y1zaw-1 gtLCOd"
